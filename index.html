@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <title>Doctor's Cabin</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    </head>
+    <body>
+       
+        <div class="form">
+            <p><u>Patient Details</u></p>
+            <br>
+        <div class="head"></div>
+          <form name="myform" method="post" onsubmit="return required()"><br>
+           <label><b><i>First Name:</i></b></label>
+           <input type ="text" name="firstname"/>&nbsp;
+           <label><b><i>Last Name:</i></b></label>
+           <input type ="text" name="lastname"/>&nbsp;
+           <label><b><i>Gender: &nbsp;</i></b></label>
+           <input type ="radio" name="r1"/>
+           <label>Male</label>&nbsp;
+           <input type ="radio" name="r1"/>&nbsp;
+           <label>Female</label>&nbsp;
+           <label><b><i>Age:</i></b></label>
+           <input type ="number" name="age"/><img src="img/form.jfif"><br><br><br>
+           <label><b><i>Phone No.:</i></b></label>
+           <input type="number" placeholder="+91-XXXXX XXXXX" name="phone">&nbsp;
+           <label><b><i>Email id:</i></b></label>
+           <input type="email" placeholder="ex: myname@example.com" size="25" name="email">&nbsp;
+           <label><b><i>Consultation for Online Appointments:</i></b></label>
+           <input list="problem" placeholder="Choose given specialization.." size="25" name="specialization">
+           <Datalist id="problem">
+            <option value="Cardialogist">
+            <option value="Dermatologist">
+            <option value="Endocrinologist">
+            <option value="Gastroenterologist">
+            <option value="Neurologist">
+            <option value="Orthomologist"></option>
+            <option value="Pediatrician">
+            <option value="Psychiatrist">
+            <option value="Pulmonologist">
+            <option value="Radiologists">
+            <option value="Urologists">
+           </Datalist><br><br><br><br>
+           <label><b><i>Address:</i></b></label>
+           <textarea rows="5" cols="50" placeholder="Enter full house address" name="address"></textarea>&nbsp;&nbsp;&nbsp;
+           <label><b><i>Appointment Date:</i></b></label>
+           <input type="date" name="date">&nbsp;&nbsp;&nbsp;&nbsp;
+           <label><b><i>Appointment Time:</i></b></label>
+           <input type="time" name="time">&nbsp;&nbsp;&nbsp;
+           <label><b><i>First Time Visit: </i></b></label>
+           <input type ="radio" name="r2"/>
+           <label>Yes</label>
+           <input type ="radio" name="r2"/>
+           <label>No</label><br><br><br>
+           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           <input type="submit" value="Submit" />
+           <input type="reset" value="Reset"/>
+         </form>
+        </div>
+      </div>
+      <script src="js/js.js"></script>
+    </body>
+</html>
